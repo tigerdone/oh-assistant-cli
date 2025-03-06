@@ -3,7 +3,7 @@ name: Release
 # 当 master 分支被 push,就会触发
 on:
   push:
-    branches: [master]
+    branches: [main]
 # 权限
 permissions:
   contents: write
