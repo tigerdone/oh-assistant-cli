@@ -1,0 +1,13 @@
+.vscode/
+.idea/
+node_modules/
+dist/
+build/
+.DS_Store
+yarn.lock
+.env
+Thumbs.db
+*.swp
+logs/
+.temp_cache
+.cspellcache

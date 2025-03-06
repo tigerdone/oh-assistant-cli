@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "target": "es2015",
+    "lib": ["ESNext", "DOM"],
+    "resolveJsonModule": true,
+    "moduleResolution": "node"
+  },
+  "include": [ "packages/**/*", "apps/**/*" ]
+}

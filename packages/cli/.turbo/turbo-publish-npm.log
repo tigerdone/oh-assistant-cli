@@ -1,0 +1,25 @@
+
+
+> @tigerdone/cli@0.0.2 publish-npm /Users/codoon/Documents/personal/node_start/oh-assistant-cli/packages/cli
+> npm publish
+
+[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K[1mnpm[22m [96mnotice[39m
+[1G[0K⠋[1G[0K[1mnpm[22m [96mnotice[39m 📦  @tigerdone/cli@0.0.2
+[1G[0K⠋[1G[0K[1mnpm[22m [96mnotice[39m [94mTarball Contents[39m
+[1G[0K⠋[1G[0K[1mnpm[22m [96mnotice[39m 83B bin/tigerdone
+[1mnpm[22m [96mnotice[39m 108B dist/index.d.ts
+[1mnpm[22m [96mnotice[39m 1.6MB dist/index.js
+[1mnpm[22m [96mnotice[39m 786B package.json
+[1G[0K⠋[1G[0K[1mnpm[22m [96mnotice[39m [94mTarball Details[39m
+[1G[0K⠋[1G[0K[1mnpm[22m [96mnotice[39m name: @tigerdone/cli
+[1G[0K⠋[1G[0K[1mnpm[22m [96mnotice[39m version: 0.0.2
+[1G[0K⠋[1G[0K[1mnpm[22m [96mnotice[39m filename: tigerdone-cli-0.0.2.tgz
+[1G[0K⠋[1G[0K[1mnpm[22m [96mnotice[39m package size: 343.7 kB
+[1G[0K⠋[1G[0K[1mnpm[22m [96mnotice[39m unpacked size: 1.6 MB
+[1G[0K⠋[1G[0K[1mnpm[22m [96mnotice[39m shasum: 4f5f959f8ce1ddd3fed3967d65f90f9635c3eca1
+[1G[0K⠋[1G[0K[1mnpm[22m [96mnotice[39m integrity: sha512-KHsXFNs1wM7R6[...]dRJWM2wC6vf9Q==
+[1G[0K⠋[1G[0K[1mnpm[22m [96mnotice[39m total files: 4
+[1G[0K⠋[1G[0K[1mnpm[22m [96mnotice[39m
+[1G[0K⠋[1G[0K[1mnpm[22m [96mnotice[39m Publishing to https://packages.aliyun.com/6718a6a0a8418da66584b206/npm/repo-piflu/ with tag latest and default access
+[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K+ @tigerdone/cli@0.0.2
+[1G[0K⠏[1G[0K

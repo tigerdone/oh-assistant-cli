@@ -1,0 +1,36 @@
+{
+  "name": "@tigerdone/cli",
+  "version": "0.0.2",
+  "main": "./src/index.js",
+  "bin": {
+    "tigerdone-cli-v1": "bin/tigerdone"
+  },
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsup --watch",
+    "prebuild": "rm -rf dist",
+    "publish-npm": "npm publish",
+    "build": "tsup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@tigerdone/cli-core": "workspace:*",
+    "@tigerdone/cli-shared": "workspace:*",
+    "@types/node": "^22.9.1",
+    "tsup": "8.3.5",
+    "typescript": "5.6.3",
+    "commander": "12.1.0",
+    "consola":"^3.2.3",
+    "picocolors": "^1.1.1",
+    "prompts": "^2.4.2",
+    "fs-extra": "11.2.0",
+    "giget": "1.2.3"
+  }
+}

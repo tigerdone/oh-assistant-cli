@@ -1,0 +1,61 @@
+{
+  "name": "oh-assistant-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "index.js",
+  "packageManager": "pnpm@9.14.2",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo run build",
+    "lint:es": "eslint",
+    "spellcheck": "cspell lint --dot --gitignore --color --cache --show-suggestions \"(packages|apps)/**/*.@(html|js|cjs|mjs|ts|tsx|css|scss|md)\"",
+    "prepare": "npx simple-git-hooks",
+    "publish:npm": "turbo publish-npm"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm spellcheck && pnpm lint-staged",
+    "commit-msg": "pnpm commitlint --edit ${1}"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@eslint/js": "9.15.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^12.0.1",
+    "@typescript-eslint/eslint-plugin": "8.15.0",
+    "commitizen": "^4.3.1",
+    "cspell": "8.16.0",
+    "eslint": "9.15.0",
+    "eslint-plugin-simple-import-sort": "12.1.1",
+    "globals": "15.12.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.2.10",
+    "semantic-release": "^24.2.3",
+    "simple-git-hooks": "^2.11.1",
+    "turbo": "2.3.1",
+    "typescript-eslint": "8.15.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}
